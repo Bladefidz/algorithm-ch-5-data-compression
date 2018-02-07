@@ -20,9 +20,11 @@ LZW try to improve encoding performance by creating table lookup for next prefix
 
 For efficiency, we store table of codewords as a **Trie Symbol Table**\(**TST**\).
 
-![](../assets/image7.png)![](../assets/image8.png)
+![](../assets/image7.png)
 
 If we know the stop code used for compression, it is easy to decompress the LZW compressed bits. The step-by-step to do decompressing or expand is similar to compressing scheme. But, there is a tricky technique in the case to avoid stuck while constructing symbol table. For example, in the case to decompress text _ABABABA_ with compressed bitstream _41 42 81 83 80_, we need to ensure that codeword 83 is a prefix ABA. The decompressing process of text _ABABABA_ illustrated in an image below.
+
+![](/assets/image8.png)
 
 The implementation of LZW compression over 8-bit extended ASCII alphabet with 12-bit codewords using java will be looked like this:
 
