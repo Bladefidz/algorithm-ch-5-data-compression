@@ -18,7 +18,7 @@ LZW try to improve encoding performance by creating table lookup for next prefix
 
 ![](../assets/image6.png)An image below illustrate how to compress text \_ABRACADABRA\_using LZW compression
 
-For efficiency, we store table of codewords as a **Trie Symbol Table**\(**TST**\).
+For efficiency, we store table of codewords as a **Trie Symbol Table ** \(**TST**\).
 
 ![](../assets/image7.png)
 
