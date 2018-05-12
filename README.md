@@ -1,3 +1,4 @@
 # Algorithm Ch. 5 Data Compression {#algorithm-ch-5-data-compression}
 
-This file serves as your book&#039;s preface, a great place to describe your book&#039;s content and ideas.
+A note about data compression taken from book algorithm by Robert Sedgewick [https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X)
+
